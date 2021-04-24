@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Login</title>
+    <link rel="stylesheet" href="fonts/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <style>
+      .b:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+       .main-container {
+    margin-top: 5%;
+    background-color: #f6f5f1;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(95, 86, 86, 0.75);
+}
+      .hed5{
+       font-weight: 700;
+      }
+      .hed5:hover{
+        text-decoration: underline;
+      }
+      .hed1{
+        font-weight: 700;
+      }
+      .hed2{
+        font-weight: 700;
+      }
+      .hed3{
+        font-weight: 700;
+      }
+ 
+      .hed1:hover{
+       text-decoration: underline;
+        
+        cursor: pointer;
+      }
+      .hed2:hover{
+       text-decoration: underline;
+       
+        cursor: pointer;
+      }
+      .hed3:hover{
+       text-decoration: underline;
+        
+        cursor: pointer;
+      }
+      .head1:hover{
+        text-decoration: underline;
+        
+        cursor: pointer;
+      }
+      .head2:hover{
+       text-decoration: underline;
+        
+        cursor: pointer;
+      }
+      .head3:hover{
+       text-decoration: underline;
+        
+        cursor: pointer;
+      }
+      .head4:hover{
+       text-decoration: underline;
+        
+        cursor: pointer;
+      }
+      .time{
+        cursor: pointer;
+      }
+      .phone{
+        cursor:pointer;
+      }
+      .email{
+        cursor: pointer;
+        
+      }
+      .text-white{
+        list-style: none;
+      }
+      .l1:hover{
+       text-decoration: underline;
+       color:cornflowerblue;
+       cursor: pointer;
+ 
+      }
+      .l2:hover{
+       text-decoration: underline;
+       color:cornflowerblue;
+       cursor: pointer;
+ 
+      }
+      .l3:hover{
+       text-decoration: underline;
+       color:cornflowerblue;
+       cursor: pointer;
+ 
+      }
+      .l4:hover{
+       text-decoration: underline;
+       color:cornflowerblue;
+       cursor: pointer;
+ 
+      }
+      .l5:hover{
+       text-decoration: underline;
+       color:cornflowerblue;
+       cursor: pointer;
+ 
+      }
+      .i1:hover{
+       font-size: 3em;
+       cursor:pointer;
+       color:azure;
+      
+      }
+      .i2:hover{
+       font-size: 3em;
+       cursor:pointer;
+       
+      }
+      .i3:hover{
+       font-size: 3em;
+       cursor:pointer;
+       
+      }
+      .i4:hover{
+       font-size: 3em;
+       cursor:pointer;
+       
+      }
+      .i5:hover{
+       font-size: 3em;
+       cursor:pointer;
+       
+      }
+    </style>
+  </head>
+<body class="main-container">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
+    <div class="container-fluid">
+        <img src="images/logo.jpeg" width="15%" height="50px" style="margin-left:35px ; margin-right: 35px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Login
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="customer.html">Customer Login</a></li>
+              <li><a class="dropdown-item" href="employee.html">Employee Login</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="business.html">Business Login</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="medicine.html" tabindex="-1" aria-disabled="false">Buy Medicine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="hospitality.html" tabindex="-1" aria-disabled="false">Hospitality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="diagnosis.html" tabindex="-1" aria-disabled="false">Diagnosis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="labs.html" tabindex="-1" aria-disabled="false">Labs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="feedback.html" tabindex="-1" aria-disabled="false">Feedback</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+ 
+    <h1 class="text-center text-primary p-md-5 text-decoration-underline"><span <i class="fas fa-user "></i><b class="b">Business Login</b></span></h1>
+    <form class="m-5 ">
+        <div class="mb-3 ">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+<!-- ----------------------------------------------Contact us --------------------------------------------->
+
+<div class="container bg-dark w-100 h-100">
+  <div class="row w-100 mb-2">
+    <div class="col order-last">
+      <h2 class="fw-bold text-primary head1">Leave Us Message</h2>
+      <div class="mb-2">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your mail">
+      </div>
+      <div class="mb-2">
+        <label for="exampleFormControlTextarea1" class="form-label">Messages</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message here.."></textarea>
+      </div>
+      <br>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      </div>
+    </div>
+
+    <div class="col">
+    <h2 class="fw-bold text-warning head4">Recent News</h2>
+<br>
+<p class="text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, magni esse obcaecati perferendis natus debitis. Quam itaque, sapiente dignissimos mollitia laborum perferendis cupiditate ut officia. Officia reprehenderit eius natus magni.</p>
+    
+    <span <i class="fas fa-clock text-primary"></i><b class="time">Mon - Fri : 8:30am to 9:30pm</b></span>
+</div>
+    <div class="col order-first">
+      <strong class="text-info"><h2 class="fw-bold head2">Quick Links</h2></strong>
+      <br>
+      <ul class="text-white">
+        <li class="l1">About Us</li>
+        <li class="l2">Services</li>
+        <li class="l3">Feedback</li>
+        <li class="l4">Get In</li><span class="l5">Touch</span>
+      </ul>
+      <br>
+      <br>
+      <br>
+      <span <i class="fas fa-envelope-open text-primary">  </i><b class="email">visudhajivam@gmail.com</b></span>
+    </div>
+    <div class="col order-first">
+      <strong class="text-info  "><h2 class="fw-bold head3">ADDRESS</h2></strong><br>
+      <p> <span <i class="fas fa-map-marker-alt text-info"></i>  Surya nagar road no-3 Bijulia talab road ward no -8 Ramgarh canttRamgarh Jharkhand 829122</span></p>
+    <br>
+    
+    <span  <i class="fas fa-envelope-open text-primary">  </i><b class="email">visudhajivam@gmail.com</b></span>
+    <br>
+    <br>
+    <div class="icon">
+      <i class="i1 fas  fa-envelope-open-text text-light h2"></i>  &nbsp;<i class="i2 fab fa-facebook text-primary h2"></i>&nbsp; <i class="i3 fab fa-instagram-square text-danger h2"></i>  &nbsp;<i class=" i4 fab fa-linkedin text-info h2"></i>&nbsp; <i class=" i5 fab fa-youtube text-danger h2 "></i>
+      
+    </div>
+    
+    <br>
+    <span  <i class="fas fa-phone text-primary "></i><b class="phone">Call us +91 93049 70109</b></span>
+    
+    
+  </div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
